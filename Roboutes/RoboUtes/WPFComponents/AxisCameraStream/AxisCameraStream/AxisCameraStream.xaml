@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Axis.AxisCameraStream"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Axis"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <UserControl.Resources>
+        <local:BoolToVisibilityConverter x:Key="boolToVisibilityConverter"/>
+    </UserControl.Resources>
+    <Viewbox x:Name="MainViewbox" Stretch="Fill">
+        <Grid Height="1080" Width="1920" Background="DarkGray">
+            <Image x:Name="videoImage" Stretch="Fill"/>
+            <Grid Background="White" Height="100" Width="200" Visibility="{Binding IsDebugging, Converter={StaticResource boolToVisibilityConverter}}" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Column="0" Grid.Row="0" Text="Camera:"/>
+                <TextBlock Grid.Column="0" Grid.Row="1" Text="FPS:"/>
+                <TextBlock Grid.Column="0" Grid.Row="2" Text="Compression:"/>
+                <TextBlock Grid.Column="0" Grid.Row="3" Text="Resolution:"/>
+                <TextBlock Grid.Column="0" Grid.Row="4" Text="Actual FPS:"/>
+                <TextBlock Grid.Column="0" Grid.Row="5" Text="Transfer Speed:"/>
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding Camera}"/>
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="{Binding FPS}"/>
+                <TextBlock Grid.Column="1" Grid.Row="2" Text="{Binding Compression}"/>
+                <TextBlock Grid.Column="1" Grid.Row="3" Text="{Binding Resolution}"/>
+                <TextBlock Grid.Column="1" Grid.Row="4" Text="{Binding MeasuredFPS}"/>
+                <TextBlock Grid.Column="1" Grid.Row="5" Text="{Binding TransferSpeed}"/>
+            </Grid>
+        </Grid>
+    </Viewbox>
+</UserControl>

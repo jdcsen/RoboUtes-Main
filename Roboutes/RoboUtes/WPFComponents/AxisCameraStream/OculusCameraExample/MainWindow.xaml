@@ -1,0 +1,28 @@
+﻿<Window x:Class="OculusCameraExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OculusCameraExample"
+        xmlns:roboUtes="clr-namespace:Axis;assembly=AxisCameraStream"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="900" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Grid>
+                <Grid>
+                    <StackPanel Orientation="Horizontal">
+                        <roboUtes:AxisCameraStream Name="acs_ExampleVideo" Height="480" Width="400" IpAddress="192.168.0.20" Port="36005" Camera="ONE" Resolution="LOW_360" Compression="0" FPS="20"/>
+                        <Image Name="image_Right" Height="480" Width="400" Source="{Binding ImageSource, ElementName=acs_ExampleVideo}" Stretch="Fill"/>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Orientation="Vertical">
+                    <Slider Name="sldr_Resolution" Value="0" Minimum="1" Maximum="4" ValueChanged="sldr_Resolution_ValueChanged" SmallChange="1"/>
+                    <Slider Name="sldr_Compression" Value="0" Minimum="0" Maximum="100" ValueChanged="sldr_Compression_ValueChanged" SmallChange="5"/>
+                    <Slider Name="sldr_FPS" Value="20" Minimum="1" Maximum="50" ValueChanged="sldr_FPS_ValueChanged" SmallChange="5"/>
+                </StackPanel>
+            </Grid>
+            <Button Name="btn_OpenFeed" Content="Open Feed" Click="btn_OpenFeed_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

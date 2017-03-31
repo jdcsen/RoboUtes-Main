@@ -1,0 +1,214 @@
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.DisposeEventArgs: type has no family visible contructors.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.ModuleInit: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.AssemblyDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.InspectableShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.DataPointer: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.ShadowAttribute: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.ResultDescriptor: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.ShadowContainer: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.ComObjectShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Configuration: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.CppObjectShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.CppObjectVtbl: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.DataBox: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.DataRectangle: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.FunctionCallback: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Interop: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Size2: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Size2F: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Result: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.PointerSize: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.GetValueFastDelegate`1: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.SetValueFastDelegate`1: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Utilities: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Text.Encoding: type is not supported because it is not available or changed between versions.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Text.ASCIIEncoding: type is not supported because it is not available or changed between versions.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Text.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.CommitFlags: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.ErrorCode: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.LockType: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.StorageStatisticsFlags: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.StorageStatistics: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.BitmapInfoHeader: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.ComStreamProxy: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.ComStreamShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.ComStreamBaseShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.NativeMessage: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.ComStringEnumerator: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.SecurityAttributes: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.Variant: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.VariantElementType: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Win32.VariantType: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.AudioEndpointRole: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.AudclntSharemode: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.AudioSessionState: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.AudioStreamCategory: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.Speakers: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.UsageId: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.UsagePage: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.WaveFormatEncoding: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.FourCC: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Multimedia.SpeakersExtensions: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NativeFile: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NativeFileAccess: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NativeFileOptions: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NativeFileMode: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.IO.NativeFileShare: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Diagnostics.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Diagnostics.ObjectTracker: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.DriverType: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.FeatureLevel: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.InterpolationMode: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.MinimumPrecision: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.PrimitiveTopology: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.ShaderResourceViewDimension: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Direct3D.ShaderMacro: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Collections.EqualityComparer: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawBox: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawMatrix4x3: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawMatrix5x4: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawPlane: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawBool: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawBool4: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawColor3: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawColor4: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawColorBGRA: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawInt3: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawInt4: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawMatrix: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawMatrix3x2: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawQuaternion: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawRectangleF: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawPoint: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawRectangle: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawVector2: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawVector3: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawVector4: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawViewport: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for SharpDX.Mathematics.Interop.RawViewportF: type is a value type.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate stub for <PrivateImplementationDetails>: type is sealed.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ModuleInit: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ComArray`1+ArrayEnumerator`1: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.AssemblyDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IInspectable: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.InspectableShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ShadowAttribute: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ShadowContainer: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ComObjectShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.CppObjectShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.CppObjectVtbl: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method SharpDX.DataStream SharpDX.DataStream.Create(!!0[] userBuffer, System.Boolean canRead, System.Boolean canWrite, System.Int32 index, System.Boolean pinBuffer), method SharpDX.DataStream SharpDX.DataStream.Create(!!0[] userBuffer, System.Boolean canRead, System.Boolean canWrite, System.Int32 index, System.Boolean pinBuffer) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.DataStream.Read(), method !!0 SharpDX.DataStream.Read() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.DataStream.Read(), method !!0 SharpDX.DataStream.Read() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.DataStream.ReadRange(System.Int32 count), method !!0[] SharpDX.DataStream.ReadRange(System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.DataStream.ReadRange(System.Int32 count), method !!0[] SharpDX.DataStream.ReadRange(System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Int32 SharpDX.DataStream.ReadRange(!!0[] buffer, System.Int32 offset, System.Int32 count), method System.Int32 SharpDX.DataStream.ReadRange(!!0[] buffer, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Int32 SharpDX.DataStream.ReadRange(!!0[] buffer, System.Int32 offset, System.Int32 count), method System.Int32 SharpDX.DataStream.ReadRange(!!0[] buffer, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.Write(!!0 value), method System.Void SharpDX.DataStream.Write(!!0 value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.Write(!!0 value), method System.Void SharpDX.DataStream.Write(!!0 value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.WriteRange(!!0[] data), method System.Void SharpDX.DataStream.WriteRange(!!0[] data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.WriteRange(!!0[] data), method System.Void SharpDX.DataStream.WriteRange(!!0[] data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.WriteRange(!!0[] data, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataStream.WriteRange(!!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataStream.WriteRange(!!0[] data, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataStream.WriteRange(!!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method SharpDX.DataBuffer SharpDX.DataBuffer.Create(!!0[] userBuffer, System.Int32 index, System.Boolean pinBuffer), method SharpDX.DataBuffer SharpDX.DataBuffer.Create(!!0[] userBuffer, System.Int32 index, System.Boolean pinBuffer) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.DataBuffer.Get(System.Int32 positionInBytes), method !!0 SharpDX.DataBuffer.Get(System.Int32 positionInBytes) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.DataBuffer.Get(System.Int32 positionInBytes), method !!0 SharpDX.DataBuffer.Get(System.Int32 positionInBytes) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Get(System.Int32 positionInBytes, !!0& value), method System.Void SharpDX.DataBuffer.Get(System.Int32 positionInBytes, !!0& value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Get(System.Int32 positionInBytes, !!0& value), method System.Void SharpDX.DataBuffer.Get(System.Int32 positionInBytes, !!0& value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, System.Int32 count), method !!0[] SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, System.Int32 count), method !!0[] SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, !!0[] buffer, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, !!0[] buffer, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, !!0[] buffer, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataBuffer.GetRange(System.Int32 positionInBytes, !!0[] buffer, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0& value), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0& value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0& value), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0& value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0 value), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0 value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0 value), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0 value) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data, System.Int32 offset, System.Int32 count), method System.Void SharpDX.DataBuffer.Set(System.Int32 positionInBytes, !!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.FunctionCallback: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.ICallbackable: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Interop: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IUnknown: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.GetValueFastDelegate`1: type is a delegate.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.SetValueFastDelegate`1: type is a delegate.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.Utilities.Pin(!!0& source, System.Action`1<System.IntPtr> pinAction), method System.Void SharpDX.Utilities.Pin(!!0& source, System.Action`1<System.IntPtr> pinAction) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.Utilities.Pin(!!0[] source, System.Action`1<System.IntPtr> pinAction), method System.Void SharpDX.Utilities.Pin(!!0[] source, System.Action`1<System.IntPtr> pinAction) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.Utilities.Read(System.IntPtr source), method !!0 SharpDX.Utilities.Read(System.IntPtr source) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.Utilities.Read(System.IntPtr source, !!0& data), method System.Void SharpDX.Utilities.Read(System.IntPtr source, !!0& data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.IntPtr SharpDX.Utilities.Read(System.IntPtr source, !!0[] data, System.Int32 offset, System.Int32 count), method System.IntPtr SharpDX.Utilities.Read(System.IntPtr source, !!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.IntPtr SharpDX.Utilities.ReadAndPosition(System.IntPtr source, !!0& data), method System.IntPtr SharpDX.Utilities.ReadAndPosition(System.IntPtr source, !!0& data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.Utilities.ReadOut(System.IntPtr source, !!0& data), method System.Void SharpDX.Utilities.ReadOut(System.IntPtr source, !!0& data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Int32 SharpDX.Utilities.SizeOf(), method System.Int32 SharpDX.Utilities.SizeOf() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Int32 SharpDX.Utilities.SizeOf(!!0[] array), method System.Int32 SharpDX.Utilities.SizeOf(!!0[] array) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Byte[] SharpDX.Utilities.ToByteArray(!!0[] source), method System.Byte[] SharpDX.Utilities.ToByteArray(!!0[] source) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.Void SharpDX.Utilities.Write(System.IntPtr destination, !!0& data), method System.Void SharpDX.Utilities.Write(System.IntPtr destination, !!0& data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.IntPtr SharpDX.Utilities.Write(System.IntPtr destination, !!0[] data, System.Int32 offset, System.Int32 count), method System.IntPtr SharpDX.Utilities.Write(System.IntPtr destination, !!0[] data, System.Int32 offset, System.Int32 count) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method System.IntPtr SharpDX.Utilities.WriteAndPosition(System.IntPtr destination, !!0& data), method System.IntPtr SharpDX.Utilities.WriteAndPosition(System.IntPtr destination, !!0& data) unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Utilities+<Distinct>d__67`1: type is not supported because of internal limitations.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Utilities+<SelectMany>d__66`2: type is not supported because of internal limitations.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Utilities+Buffer`1: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Utilities+CLSCTX: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Utilities+CoInit: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Text.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.CommitFlags: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.ErrorCode: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.LockType: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.StorageStatisticsFlags: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.IStream: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.IStreamBase: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.StorageStatistics+__Native: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.ComStreamProxy: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.ComStreamShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.ComStreamBaseShadow: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.PropertyBag+IPropertyBag2: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.PropertyBag+PROPBAG2: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.ComStringEnumerator: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.Variant+VariantValue: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.VariantElementType: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Win32.VariantType: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.AudioEndpointRole: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.AudclntSharemode: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.AudioSessionState: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.AudioStreamCategory: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.Speakers: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.UsageId: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.UsagePage: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.WaveFormatEncoding: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.WaveFormatAdpcm+__Native: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.Multimedia.RiffChunk.GetDataAs(), method !!0 SharpDX.Multimedia.RiffChunk.GetDataAs() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0 SharpDX.Multimedia.RiffChunk.GetDataAs(), method !!0 SharpDX.Multimedia.RiffChunk.GetDataAs() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.Multimedia.RiffChunk.GetDataAsArray(), method !!0[] SharpDX.Multimedia.RiffChunk.GetDataAsArray() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : skipping method !!0[] SharpDX.Multimedia.RiffChunk.GetDataAsArray(), method !!0[] SharpDX.Multimedia.RiffChunk.GetDataAsArray() unstubbable: unsupported constraint type
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.WaveFormat+__Native: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.WaveFormat+__PcmNative: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Multimedia.WaveFormatExtensible+__Native: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFile+FILETIME: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFile+WIN32_FILE_ATTRIBUTE_DATA: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFileAccess: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFileOptions: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFileMode: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.IO.NativeFileShare: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Diagnostics.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Diagnostics.ObjectTracker+GetStackTraceException: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.NamespaceDoc: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.DriverType: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.FeatureLevel: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.InterpolationMode: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.MinimumPrecision: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.PrimitiveTopology: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.ShaderResourceViewDimension: type is an enum.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.DestructionNotifier: type is an interface.
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Direct3D.ShaderMacro+__Native: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for SharpDX.Collections.EqualityComparer: type is not visible to exported or assembly(SharpDX.Fakes).
+X:\Roboutes\RoboUtes\Terminal\Fakes\SharpDX.fakes : warning : Cannot generate shim for <PrivateImplementationDetails>: type is not supported because of internal limitations.

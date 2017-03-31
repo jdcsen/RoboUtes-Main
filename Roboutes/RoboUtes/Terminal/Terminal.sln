@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terminal", "Terminal.csproj", "{14A8AAE1-E24B-4FD4-AD57-7D12D46F847B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboUtesUI", "..\WPFComponents\RoboUtesUI\RoboUtesUI\RoboUtesUI.csproj", "{0FBA4B77-28CD-48E5-9A83-BCB02352887B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14A8AAE1-E24B-4FD4-AD57-7D12D46F847B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A8AAE1-E24B-4FD4-AD57-7D12D46F847B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A8AAE1-E24B-4FD4-AD57-7D12D46F847B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A8AAE1-E24B-4FD4-AD57-7D12D46F847B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBA4B77-28CD-48E5-9A83-BCB02352887B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBA4B77-28CD-48E5-9A83-BCB02352887B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBA4B77-28CD-48E5-9A83-BCB02352887B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBA4B77-28CD-48E5-9A83-BCB02352887B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

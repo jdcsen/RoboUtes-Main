@@ -1,0 +1,23 @@
+﻿<Window x:Class="RoboUtes.Terminal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Terminal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Name="btn_Arm" Click="btn_Arm_Click">Arm Terminal</Button>
+        <Button Grid.Row="0" Grid.Column="1" Name="btn_Drive" Click="btn_Drive_Click">Drive Terminal</Button>
+        <Button Grid.Row="1" Grid.Column="0" Name="btn_Engineering" Click="btn_Engineering_Click">Engineering Terminal</Button>
+        <Button Grid.Row="1" Grid.Column="1" Name="btn_Logistics" Click="btn_Logistics_Click">Logistics Terminal</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="ThreeDimensionalArmTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ThreeDimensionalArmTester"        
+        xmlns:roboutes="clr-namespace:RoboUtes;assembly=RoboUtesUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="Auto" Width="Auto" SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <Slider Name="slider_Turntable" Maximum="180" Minimum="-180" Height="29"/>
+            <Slider Name="slider_Shoulder" Maximum="90" Minimum="-90" Height="29"/>
+            <Slider Name="slider_Elbow" Maximum="90" Minimum="-90" Height="29"/>
+
+            <roboutes:ThreeDimensionalArm 
+                Height="300" Width="300" 
+                TurntableAngle="{Binding ElementName=slider_Turntable, Path=Value}" 
+                ShoulderAngle="{Binding ElementName=slider_Shoulder, Path=Value}" 
+                ElbowAngle="{Binding ElementName=slider_Elbow, Path=Value}"/>
+        </StackPanel>
+    </Grid>
+</Window>

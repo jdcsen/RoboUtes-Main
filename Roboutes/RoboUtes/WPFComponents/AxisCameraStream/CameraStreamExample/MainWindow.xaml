@@ -1,0 +1,23 @@
+﻿<Window x:Class="CameraStreamExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CameraStreamExample"
+        xmlns:roboUtes="clr-namespace:Axis;assembly=AxisCameraStream"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="Auto" Width="Auto" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Grid>
+                <roboUtes:AxisCameraStream Name="acs_ExampleVideo" Height="480" Width="854" IpAddress="10.0.1.17" Port="36005" Camera="ONE" Resolution="LOW_360" Compression="{Binding ElementName=sldr_Compression, Path=Value}" FPS="{Binding ElementName=sldr_FPS, Path=Value}" IsDebugging="True"/>
+                <StackPanel Orientation="Vertical">
+                    <Slider Name="sldr_Resolution" Value="0" Minimum="1" Maximum="4" ValueChanged="sldr_Resolution_ValueChanged" SmallChange="1"/>
+                    <Slider Name="sldr_Compression" Value="100" Minimum="0" Maximum="100" ValueChanged="sldr_Compression_ValueChanged" SmallChange="5"/>
+                    <Slider Name="sldr_FPS" Value="50" Minimum="1" Maximum="50" ValueChanged="sldr_FPS_ValueChanged" SmallChange="5"/>
+                </StackPanel>
+            </Grid>
+            <Button Name="btn_OpenFeed" Content="Open Feed" Click="btn_OpenFeed_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

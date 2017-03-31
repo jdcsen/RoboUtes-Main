@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="RoboUtes.ThreeDimensionalArm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RoboUtes"
+             xmlns:helixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Viewbox>
+        <helixToolkit:HelixViewport3D ZoomExtentsWhenLoaded="True" ShowViewCube="False" CameraMode="FixedPosition">
+            <helixToolkit:SunLight/>
+            <ModelVisual3D x:Name="modelVisual3d"/>
+        </helixToolkit:HelixViewport3D>
+    </Viewbox>
+</UserControl>

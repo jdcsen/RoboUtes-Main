@@ -1,0 +1,178 @@
+﻿<Window x:Class="RoboUtes.Terminal.DriveTerminal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoboUtes.Terminal"
+        xmlns:roboUtes="clr-namespace:RoboUtes;assembly=RoboUtesUI"
+        xmlns:headingControl="clr-namespace:headingControl;assembly=headingControl"
+        xmlns:wheelFeedbackViz="clr-namespace:wheelFeedbackViz;assembly=wheelFeedbackViz"
+        mc:Ignorable="d"
+        Title="Drive Terminal"  
+        WindowStartupLocation="CenterScreen" WindowState="Maximized"
+        Loaded="Window_Loaded" KeyDown="Window_KeyDown" Closed="Window_Closing"
+        Height="Auto" Width="Auto" Background="Black">
+    <Window.Resources>
+        <local:BoolToRedGreenConverter x:Key="BoolToRedGreenConverter"/>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+    <Viewbox>
+        <Grid Width="854" Height="480">
+            <!-- Video Stream -->
+            <roboUtes:AxisCameraStream Name="axisCameraStream" Height="480" Width="854" 
+                                   IpAddress="192.168.1.150" Port="36005" 
+                                   Camera="ONE" 
+                                   Resolution="MED_480" 
+                                   Compression="40" 
+                                   FPS="15" 
+                                   IsDebugging="True" Margin="3,0,-3,0"/>
+            <!-- End of Video Stream-->
+
+            <!-- HUD -->
+            <Canvas>
+                <Ellipse Fill="{Binding ConnectedToIris, Converter={StaticResource BoolToRedGreenConverter}}" Height="50" Width="50" Stroke="Black" StrokeThickness="3" Canvas.Right="10" Canvas.Top="10"/>
+                <roboUtes:AttitudeDisplay Name="attitudeDisplay" Width="150" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top" LeftPitch="{Binding LeftPitch}" RightPitch="{Binding RightPitch}" Roll="{Binding Roll}"/>
+                <roboUtes:MapDisplay Name="mapDisplay" Width="225" Height="225" HorizontalAlignment="Left" VerticalAlignment="Top" Loaded="mapDisplay_Loaded" Canvas.Top="150">
+                    <roboUtes:MapDisplay.OpacityMask>
+                        <RadialGradientBrush  >
+                            <GradientStop Color="Black" Offset="0.85"/>
+                            <GradientStop Color="Transparent" Offset="1.0"/>
+                        </RadialGradientBrush>
+                    </roboUtes:MapDisplay.OpacityMask>
+                </roboUtes:MapDisplay>
+            </Canvas>
+            <headingControl:ToolboxControl x:Name="headingInd" VerticalAlignment="Top" Height="115" Background="{x:Null}" Margin="114,10,58,0"/>
+            <wheelFeedbackViz:wheelFeedbackVisualizer x:Name="wheelViz" HorizontalAlignment="Left" Margin="766,334,0,0" VerticalAlignment="Top" Background="{x:Null}" Height="136" Width="78" linkWheelAnimationWithVectors="True" BLVector="1" BRVector="1" FLVector="1" FRVector="1"/>
+
+            <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Right" Height="44" Margin="0,27,69,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Text="Abs. Heading:" Foreground="White" RenderTransformOrigin="0.495,1.718" FontSize="16"/>
+            <Label x:Name="pitchLabel_Copy3" Content="{Binding Path=AbsHeading, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right" Margin="0,22,69,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" Width="38" Height="32" RenderTransformOrigin="1.474,-4.108" FontSize="16"/>
+
+            <!-- End of HUD -->
+
+            <!-- MENU OVERLAY -->
+            <Grid Visibility="{Binding MenuShown, Converter={StaticResource BoolToVisibilityConverter}}">
+                <Grid.Background>
+                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                </Grid.Background>
+                <Grid.Style>
+                    <Style TargetType="{x:Type Grid}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Setter Property="Foreground" Value="White" />
+                            </Style>
+                            <Style TargetType="{x:Type TextBox}">
+                                <Setter Property="Foreground" Value="White" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </Grid.Style>
+                <Canvas>
+                    <Border Canvas.Left="5" Canvas.Top="5" BorderBrush="White" BorderThickness="5">
+                        <Grid Width="150" Height="85">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0.5"/>
+                            </Grid.Background>
+                            <StackPanel Orientation="Vertical" Margin="5">
+                                <TextBlock Text="Orientation Data" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                                <TextBlock Text="{Binding LeftPitch, StringFormat=L Pitch: {0}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding RightPitch, StringFormat=R Pitch: {0}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Roll, StringFormat=Roll: {0}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Yaw, StringFormat=Yaw: {0}}" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Border Canvas.Left="5" Canvas.Top="105" BorderBrush="White" BorderThickness="5">
+                        <Grid>
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0.5"/>
+                            </Grid.Background>
+                            <roboUtes:MapDisplay Name="mapDisplay2" Width="150" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top" Loaded="mapDisplay_Loaded"/>
+                        </Grid>
+                    </Border>
+
+                    <Border Canvas.Left="5" Canvas.Top="270" BorderBrush="White" BorderThickness="5">
+                        <Grid Width="150" Height="100">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0.5"/>
+                            </Grid.Background>
+                            <StackPanel Orientation="Vertical" Margin="5">
+                                <TextBlock Text="Connection Status" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                                <TextBlock Text="{Binding IpAddress, StringFormat=IP Address: {0}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding FPS, StringFormat=FPS: {0}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding Resolution, StringFormat=Resolution: {0}}" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <Border Canvas.Left="5" Canvas.Top="385" BorderBrush="White" BorderThickness="5">
+                        <Grid Width="150" Height="80">
+                            <Grid.Background>
+                                <SolidColorBrush Color="White" Opacity="0.5"/>
+                            </Grid.Background>
+                            <StackPanel Orientation="Vertical" Margin="5">
+                                <TextBlock Text="Location" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                                <TextBlock Text="{Binding RoverLatitude, StringFormat=Latitude: {0:0.00000}}" HorizontalAlignment="Center"/>
+                                <TextBlock Text="{Binding RoverLongitude, StringFormat=Longitude {0:0.00000}}" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+                    <TextBlock Text="SLEEP" Name="txtblk_Overlay1" Canvas.Left="-50" Canvas.Top="-750" FontSize="30" FontWeight="Bold" Height="1000" Width="1000" Padding="450, 800, 0, 0" MouseDown="txtblk_Overlay1_MouseDown" MouseEnter="txtblk_Overlay1_MouseEnter" MouseLeave="txtblk_Overlay1_MouseLeave">
+                        <TextBlock.Background>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Polygon Points="0,0 1000,0 500,1000" Stroke="{Binding Overlay1Color}" StrokeThickness="5">
+                                        <Polygon.Fill>
+                                            <SolidColorBrush Color="{Binding Overlay1Color}" Opacity="0.5"/>
+                                        </Polygon.Fill>
+                                    </Polygon>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBlock.Background>
+                    </TextBlock>
+
+                    <TextBlock Text="FEED SELECT" Name="txtblk_Overlay2" Canvas.Left="450" Canvas.Top="-750" FontSize="30" FontWeight="Bold" Height="1000" Width="500" Padding="130, 870, 0, 0" MouseDown="txtblk_Overlay2_MouseDown" MouseEnter="txtblk_Overlay2_MouseEnter" MouseLeave="txtblk_Overlay2_MouseLeave">
+                        <TextBlock.Background>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Polygon Points="0,2000 1000,2000 1000,0" Stroke="{Binding Overlay2Color}" StrokeThickness="5">
+                                        <Polygon.Fill>
+                                            <SolidColorBrush Color="{Binding Overlay2Color}" Opacity="0.5"/>
+                                        </Polygon.Fill>
+                                    </Polygon>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBlock.Background>
+                    </TextBlock>
+
+                    <TextBlock Text="FEED QUALITY" Name="txtblk_Overlay3" Canvas.Left="450" Canvas.Top="250" FontSize="30" FontWeight="Bold" Height="1000" Width="1000" Padding="100, 100, 0, 0" MouseDown="txtblk_Overlay3_MouseDown" MouseEnter="txtblk_Overlay3_MouseEnter" MouseLeave="txtblk_Overlay3_MouseLeave">
+                        <TextBlock.Background>
+                            <VisualBrush>
+                                <VisualBrush.Visual>
+                                    <Polygon Points="0,0 1000,0 250,1000" Stroke="{Binding Overlay3Color}" StrokeThickness="5">
+                                        <Polygon.Fill>
+                                            <SolidColorBrush Color="{Binding Overlay3Color}" Opacity="0.5"/>
+                                        </Polygon.Fill>
+                                    </Polygon>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </TextBlock.Background>
+                    </TextBlock>
+                </Canvas>
+            </Grid>
+            <!-- END MENU OVERLAY-->
+
+            <!-- LOCKED OVERLAY -->
+            <Grid Visibility="{Binding Locked, Converter={StaticResource BoolToVisibilityConverter}}" Background="Gray" Opacity="0.7" d:IsHidden="True">
+                <TextBlock Text="LOCKED" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" FontSize="48" FontWeight="ExtraBold">
+                    <TextBlock.RenderTransform>
+                        <RotateTransform Angle="-30"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+            </Grid>
+            <!-- END LOCKED OVERLAY-->
+
+        </Grid>
+    </Viewbox>
+</Window>
